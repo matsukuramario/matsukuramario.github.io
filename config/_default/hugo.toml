@@ -7,7 +7,7 @@
 baseURL = "https://example.com"
 locale = "en"
 DefaultContentLanguage = "en"
-title = "Sito di Mario"
+title = "Matsukura Mario's Portfolio"
 
 # The theme lives in ./themes/anatole as a plain copy of the theme's files
 # (not a git submodule), so it can be edited directly.
