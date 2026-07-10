@@ -8,11 +8,17 @@ tags:
 thumbnail: "images/landscape.jpg"
 ---
 
-For displaying diagrams and charts in a Hugo project, you can leverage Mermaid.
+# Ciao 1
+
+## Ciao 2
+
+### Ciao 3
+
+For displaying **diagrams** and charts in a Hugo project, you can leverage Mermaid.
 
 If you want to use Mermaid diagrams in your site, enable mermaid support in your config file:
 
-![[landscape.jpg]]
+![profile](/images/profile.jpg)
 
 
 ```toml
