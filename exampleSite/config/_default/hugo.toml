@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
-languageCode = "en"
-DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+baseURL = "https://matsukuramario.github.io"
+languageCode = "jp"
+DefaultContentLanguage = "jp"
+title = "Sito di Mario Matsukura"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"
@@ -13,6 +13,9 @@ enableEmoji = true
 enableRobotsTXT = true
 
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # Syntax highlighting
 pygmentsUseClasses = true   
