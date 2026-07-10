@@ -1,22 +1,23 @@
-+++
-author = "Hugo Authors"
-title = "Guide to Mermaid Diagrams in Hugo"
-date = "2025-08-11"
-description = "Guide to Mermaid Diagrams in Hugo"
-tags = [
-    "thumbnail",
-]
-thumbnail= "images/landscape.jpg"
-+++
+---
+author: "Hugo Authors"
+title: "Guide to Mermaid Diagrams in Hugo"
+date: "2025-08-11"
+description: "Guide to Mermaid Diagrams in Hugo"
+tags:
+ - "thumbnail"
+thumbnail: "images/landscape.jpg"
+---
 
 For displaying diagrams and charts in a Hugo project, you can leverage Mermaid.
 
 If you want to use Mermaid diagrams in your site, enable mermaid support in your config file:
 
+![[landscape.jpg]]
+
 
 ```toml
 [params.mermaid]
-enable = true
+enable: true
 ```
 
 You can then use mermaid syntax to display your diagram:

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/about.md",
+                "file": "content/english/post/mermaid-test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "mermaid-test"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/english/about.md",
+                "file": "content/english/post/mermaid-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for about"
+              "title": "Backlinks for mermaid-test"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/english/about.md",
+                "file": "content/english/post/mermaid-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from about"
+              "title": "Outgoing links from mermaid-test"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/english/about.md",
+                "file": "content/english/post/mermaid-test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of about"
+              "title": "Outline of mermaid-test"
             }
           },
           {
@@ -196,12 +196,17 @@
   },
   "active": "9bbb60599143fc59",
   "lastOpenFiles": [
+    "content/english/awards.md",
+    "config/_default/menus.en copy.toml",
+    "config/_default/menus.ar.toml",
+    "content/english/archives.md",
+    "content/english/certifications.md",
+    "content/english/about.md",
     "content/english/_index.md",
     "config/_default/menus.jp.toml",
     "config/_default/menus.it.toml",
     "config/_default/menus.en copy 3.toml",
     "config/_default/menus.en copy 2.toml",
-    "config/_default/menus.en copy.toml",
     "content/italian/post/series-part-2.md",
     "content/italian/post/series-part-1.md",
     "content/italian/post/rich-content.md",
@@ -226,12 +231,7 @@
     "content/italian/about.md",
     "content/italian/_index.md",
     "content/italian",
-    "content/japanese/post/series-part-2.md",
-    "content/japanese/post/series-part-1.md",
-    "content/japanese/post/rich-content.md",
-    "content/japanese/post/redirect.md",
     "content/japanese/post",
-    "content/japanese/portfolio",
     "static/images/landscape.jpg",
     "static/images/site-feature-image.png",
     "static/images/profile.jpg"
