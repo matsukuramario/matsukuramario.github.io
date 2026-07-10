@@ -5,9 +5,9 @@
 # GitHub Pages URL, e.g. "https://<your-username>.github.io/<your-repo>/"
 # (or "https://<your-username>.github.io/" for a user/organization site).
 baseURL = "https://example.com"
-locale = "en"
-DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+locale = "it"
+DefaultContentLanguage = "jp"
+title = "Sito di Mario"
 
 # The theme lives in ./themes/anatole as a plain copy of the theme's files
 # (not a git submodule), so it can be edited directly.
