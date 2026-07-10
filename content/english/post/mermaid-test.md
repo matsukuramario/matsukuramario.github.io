@@ -7,6 +7,7 @@ tags:
  - "thumbnail"
 thumbnail: "images/landscape.jpg"
 ---
+Titoli
 
 # Ciao 1
 
@@ -14,11 +15,40 @@ thumbnail: "images/landscape.jpg"
 
 ### Ciao 3
 
+Linea con testo grande
+---
+
+Linea con testo normale
+
+---
+
+immagine
+
+Metti l'idirizzo dell'immagine in static SENZA STATIC
+/static/images/profile.jpg -> /images/profile.jpg
+
+![Immagine di profilo](/images/profile.jpg)
+
+
+TABELLE
+
+| intestazione 1 | intestazione 2 |
+|----|----|
+|contentunto 1 | contenuto 2
+| ciao | | 
+| | ciao |
+
+
+**GRASSETTO**
+
+*Corsivo*
+
+
 For displaying **diagrams** and charts in a Hugo project, you can leverage Mermaid.
 
 If you want to use Mermaid diagrams in your site, enable mermaid support in your config file:
 
-![profile](/images/profile.jpg)
+
 
 
 ```toml
