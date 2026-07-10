@@ -1,0 +1,71 @@
+# NOTE: baseURL is overridden automatically at build time by the GitHub Actions
+# workflow (.github/workflows/hugo.yaml) via actions/configure-pages, so it does
+# not need to be perfectly accurate for GitHub Pages deploys. It IS used by
+# `hugo server` locally and by the RSS/sitemap output, so set it to your real
+# GitHub Pages URL, e.g. "https://<your-username>.github.io/<your-repo>/"
+# (or "https://<your-username>.github.io/" for a user/organization site).
+baseURL = "https://example.com"
+locale = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
+
+# The theme lives in ./themes/anatole as a plain copy of the theme's files
+# (not a git submodule), so it can be edited directly.
+theme = "anatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Recommended when deploying via GitHub Actions: keep the image cache inside
+# Hugo's cacheDir so it can be restored/saved between CI runs (see hugo.yaml).
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+# Mermaid
+[params.mermaid]
+enable = true
+
+[markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe=true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[services]
+# Enable Disqus.Disqus.Shortname
+  [services.disqus]
+    #shortname = 'your-disqus-shortname'
+# Google Analytics
+  [services.googleAnalytics]
+    #ID = 'G-MEASUREMENT_ID'
